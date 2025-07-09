@@ -9,8 +9,8 @@ files.sort()  # 將清單排序，預設是由小到大
 
 for f in files:  # ['class1.md','class2.md']逐一讀取所有.md檔案
     # markdown/class.md
-    with open(f"{folderPath}/{f}," r",encoding=" "utf-8") as file:
+    with open(f"{folderPath}/{f}", "r", encoding="utf-8") as file:
         content = file.read()
 
-with st.expander(f[:-3]):  # 使用expender,標題為檔案名去掉.md
-    st.write(content)
+    with st.expander(f[:-3]):  # 使用expender,標題為檔案名去掉.md
+        st.write(content)

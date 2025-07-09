@@ -1,5 +1,3 @@
-'''
-
 ### 🔁 `if`, `elif`, `else` 的差別是什麼？
 
 `/`/`python
@@ -148,7 +146,3 @@ with open("pages/class1-1.py", "r") as f:
 filename = "class1.md"
 print(filename.endswith(".md"))  # 看是不是 Markdown 檔
 ```
-
----
-
-'''
