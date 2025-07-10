@@ -2,7 +2,7 @@
 # elif可以排除前面有判斷過的條件，所以縮短條件的複雜度。
 
 
-for i in range(100000):
+for i in range(10000):
     print(i)
     print("hello")
 
