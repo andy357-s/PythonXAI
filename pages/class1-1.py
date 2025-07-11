@@ -32,7 +32,6 @@
 # 3.* / // % '乘法 除 取商 取於數
 # 4.+ - '加減
 # 字串運算
-a = "Hi"
 b = "Hello"
 c = "HelloWorld"
 d = "HelloWorld!"
